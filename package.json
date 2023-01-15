@@ -1,0 +1,49 @@
+{
+  "name": "koishi-plugin-abbreviation",
+  "description": "Search for chinese abbreviations",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-abbreviation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-abbreviation/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-abbreviation",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "Search for chinese abbreviations",
+      "zh": "中文缩写词搜索——[能不能好好说话？](https://lab.magiconch.com/nbnhhsh/)"
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "abbreviation",
+    "search",
+    "word",
+    "text",
+    "nbnhhsh"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "koishi": "^4.11.1",
+    "typescript": "^4.9.4"
+  }
+}
